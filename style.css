@@ -28,8 +28,10 @@ nav ul li {
 }
 
 nav .logo {
-  width: 210px;
+  width: 200px;
   cursor: pointer;
+  opacity: inherit;
+  border-radius: 80px;
 }
 
 .nav-btn {
@@ -46,4 +48,81 @@ nav .logo {
 .nav-btn img {
   width: 15px;
   margin-left: 7px;
+  color: rgb(221, 195, 164);
+}
+
+.header {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(#eefff9 0%, #ffccc1 49%, #dcdbff 100%);
+  padding: 0 10%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header h1 {
+  margin-top: 100px;
+  font-size: 12vw;
+  line-height: 10vw;
+}
+
+.btn-container {
+  margin: 20px 0;
+}
+
+.header button {
+  border: 0;
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  font-size: 18px;
+  margin-right: 18px;
+  cursor: pointer;
+}
+
+.btn-dark {
+  background: #000;
+  /* color: #fff; */
+  color: rgb(221, 195, 164);
+  padding: 8px 8px 8px 25px;
+  border-radius: 50px;
+}
+
+.btn-dark img {
+  width: 40px;
+  background: rgb(221, 195, 164);
+  /* background: #fff; */
+  border-radius: 50%;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.btn-light {
+  background: transparent;
+  text-decoration: underline;
+}
+
+.btn-light img {
+  width: 20px;
+  margin-left: 10px;
+}
+
+.header p {
+  max-width: 350px;
+  font-weight: 450;
+}
+
+.user-img {
+  width: 140%;
+  max-width: 800px;
+  position: absolute;
+  right: 15%;
+  bottom: 0;
+  margin-left: 200px;
+  margin-top: 200px;
+
+  padding-left: 200px;
+  padding-bottom: 200px;
+  bottom: 0;
 }
